@@ -143,3 +143,8 @@ git push heroku master
 ```bash
 heroku open
 ```
+
+URL to the service i deployed:
+```bash
+https://fetal-health-classification-dp-dfad861fc4dc.herokuapp.com/ 
+```
