@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT fetal_health_classification.predict:app
+web: waitress-serve --port=$PORT fetal_health_classification/predict:app
