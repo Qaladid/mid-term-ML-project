@@ -51,7 +51,7 @@ To run the project locally, make sure you have the following installed:
 
 ### Step 1: Clone the Repository
 
-Clone the project repository to your local machine:
+Clone the project repository/folder to your local machine:
 
 ```bash
 git clone https://github.com/your-username/mid-term-ML-project.git
