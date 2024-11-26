@@ -123,8 +123,9 @@ heroku login
 
 2. Create a new Heroku app:
 ```bash
-heroku create fetal-health-classification
+heroku create fetal-health-classification-dp
 ```
+here, `dp` in the name `create fetal-health-classification-dp`, i abbreviated as deployment.
 
 3. Initialize a Git repository and commit the changes:
 ```bash
