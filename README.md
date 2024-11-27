@@ -112,15 +112,18 @@ The model will be available at http://127.0.0.1:9696/ by default.
 
 ### Step 1: Prepare the Project for Heroku
 
-To deploy the application on Heroku, we need to include the following files:
+To deploy the application on Heroku using the `heroku.yml` file, follow these steps:
 
-1. `Procfile`: This file tells Heroku how to run the application.
-    In the Procfile, add the following content:
+1. **Create a `heroku.yml` file**:  
+   The `heroku.yml` file defines the build and run process. Add the following content:
 
-```bash
-      web: waitress-serve --listen=0.0.0.0:$PORT app:app
-```
-This uses `waitress` to serve the Flask application.
+```yaml
+build:
+  docker:
+    web: Dockerfile
+
+run:
+  web: waitress-serve --listen=0.0.0.0:$PORT app:app
 
 2. `requirements`.txt: This file lists the dependencies for the project.
   To generate the `requirements.txt` file, run the following command:
@@ -165,6 +168,8 @@ URL to the service i deployed:
 ```bash
 https://fetal-health-classification-dp-dfad861fc4dc.herokuapp.com/ 
 ```
+Note:
+Here in heroku, when you take this URL, it will give you error, because the folder that contains the scripts(predict.py) and the model is not the same level on where i have the heroku.yml file, so try to change that when run it.
 
 ## Final Conclusion and Summary
 
