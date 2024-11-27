@@ -149,7 +149,7 @@ URL to the service i deployed:
 https://fetal-health-classification-dp-dfad861fc4dc.herokuapp.com/ 
 ```
 
-## Final Conclusion ans Summary
+## Final Conclusion and Summary
 
 This project demonstrates the application of machine learning techniques to predict the health status of a fetus based on medical data. Through a rigorous exploratory data analysis (EDA) process and testing of multiple models, the following key achievements were made:
 
