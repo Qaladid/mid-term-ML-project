@@ -12,7 +12,7 @@ This project involves training a machine learning model to classify the fetal he
 
 ### Problem Description
 
-The dataset for this project contains the following key features:
+The data for this project contains the following key features:
 
 - Fetal heart rate (FHR)
 - Uterine contractions
@@ -28,8 +28,18 @@ The objective of the project is to use this data to predict the fetal health con
 ---
 
 ## Dataset:
+**Source**: Kaggle - Fetal Health Classification Dataset
 
- [Fetal Health Classification on Kaggle](https://www.kaggle.com/code/karnikakapoor/fetal-health-classification) 
+**Description**: This dataset contains medical data related to fetal health, used for predicting the health status of a fetus. The dataset includes the following attributes:
+
+- **Fetal health status**: The classification of the fetus (Category 1, 2, or 3).
+- **Fetal heart rate**: The rate of the fetus's heart rate.
+- **Uterine contraction**: The number and intensity of uterine contractions during labor.
+- **Other medical features**: Information about the mother's health, including blood pressure, age, and more.
+
+**Instructions**: Download the dataset directly from Kaggle using the provided link or follow the instructions within this repository for loading and preprocessing the data.
+For more details, visit the [Fetal Health Classification on Kaggle](https://www.kaggle.com/code/karnikakapoor/fetal-health-classification) link.
+ 
 
 ## Technologies Used
 
