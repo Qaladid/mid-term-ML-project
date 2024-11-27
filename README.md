@@ -27,6 +27,10 @@ The objective of the project is to use this data to predict the fetal health con
 
 ---
 
+## Dataset:
+
+ [Fetal Health Classification on Kaggle](https://www.kaggle.com/code/karnikakapoor/fetal-health-classification) 
+
 ## Technologies Used
 
 - **Python 3.11**: The programming language used for data processing, model building, and deployment.
