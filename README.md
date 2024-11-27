@@ -123,7 +123,7 @@ build:
     web: Dockerfile
 
 run:
-  web: waitress-serve --listen=0.0.0.0:$PORT app:app
+  web: waitress-serve --listen=0.0.0.0:$PORT predict:app
 
 2. `requirements`.txt: This file lists the dependencies for the project.
   To generate the `requirements.txt` file, run the following command:
