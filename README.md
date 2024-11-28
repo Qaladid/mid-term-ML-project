@@ -71,7 +71,7 @@ To run the project locally, make sure you have the following installed:
 Clone the project repository/folder to your local machine:
 
 ```bash
-git clone https://github.com/your-username/mid-term-ML-project.git
+git clone https://github.com/Qaladid/mid-term-ML-project.git
 cd mid-term-ML-project
 ```
 
